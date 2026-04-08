@@ -40,8 +40,10 @@ body {
 
 .logo img {
   margin-top: 20px;
-  width: 120px;
-  filter: grayscale(100%); /* bnw logo effect */
+  width: 140px;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.9;
 }
 
 /* ================= MENU ================= */
