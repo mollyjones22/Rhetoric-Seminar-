@@ -1,16 +1,18 @@
-/* style.css */
 body {
   margin: 0;
   height: 200vh;
-  background: #d9f0ff;
+
+  background-color: #d9f0ff;
+  background-image: url("images/bgsite.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
-/* scroll area */
 .spacer {
   height: 150vh;
 }
 
-/* fixed centered menu */
 .menu {
   position: fixed;
   top: 50%;
@@ -28,7 +30,6 @@ body {
   text-align: center;
 }
 
-/* horizontal menu */
 .menu a {
   display: inline-block;
   margin: 0 15px;
