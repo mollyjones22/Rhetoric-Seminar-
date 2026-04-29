@@ -9,12 +9,10 @@ body {
   background-position: top center;
 }
 
-/* για scroll */
 .spacer {
   height: 200vh;
 }
 
-/* κεντραρισμένο menu */
 .menu {
   position: fixed;
   top: 50%;
@@ -31,7 +29,6 @@ body {
   padding: 30px 0;
 }
 
-/* menu list */
 .menu ul {
   list-style: none;
   margin: 0;
@@ -43,7 +40,6 @@ body {
   margin: 0 20px;
 }
 
-/* links */
 .menu a {
   text-decoration: none;
   color: white;
@@ -51,7 +47,6 @@ body {
   transition: color 0.3s ease;
 }
 
-/* hover */
 .menu a:hover {
   color: #021363;
 }
