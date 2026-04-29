@@ -1,0 +1,57 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url("images/bgsite.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/* για scroll */
+.spacer {
+  height: 200vh;
+}
+
+/* κεντραρισμένο menu */
+.menu {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+
+  background-image: url("images/bgmenu.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* menu list */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* links */
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+/* hover */
+.menu a:hover {
+  color: #021363;
+}
