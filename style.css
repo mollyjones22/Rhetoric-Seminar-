@@ -61,3 +61,40 @@ body {
 .zoom-link:hover {
   color: black;
 }
+.page {
+  padding: 60px;
+  font-size: 18px;
+  color: black;
+}
+
+/* table layout */
+.table {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* each row */
+.row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  gap: 20px;
+
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* header row */
+.header {
+  font-weight: bold;
+  border-bottom: 2px solid #021363;
+}
+
+/* video link */
+.row a {
+  color: #021363;
+  text-decoration: underline;
+}
+
+.row a:hover {
+  color: black;
+}
