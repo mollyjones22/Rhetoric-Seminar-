@@ -44,3 +44,20 @@ body {
 .menu a:hover {
   color: #021363;
 }
+
+.page {
+  padding: 60px;
+  font-size: 18px;
+  color: black;
+}
+
+.zoom-link {
+  color: #021363;
+  text-decoration: underline;
+  font-weight: bold;
+  word-break: break-word;
+}
+
+.zoom-link:hover {
+  color: black;
+}
